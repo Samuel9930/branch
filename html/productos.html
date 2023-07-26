@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/productos.css">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <div class="container-principal">
+
+        <div class="container-cards">
+            <div class="cards">
+                <img src="../imagenes/descarga.jpg" alt="">
+                <p>Mouse</p>
+                <p>Precio: 10$</p>
+                <button onclick="agregarProducto('Mouse', '../imagenes/descarga.jpg')">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="container-cards">
+            <div class="cards">
+                <img src="../imagenes/descarga (1).jpg" alt="">
+                <p>Set-up</p>
+                <p>Precio: 500$</p>
+                <button onclick="agregarProducto('Set-up', '../imagenes/descarga (1).jpg')">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="container-cards">
+            <div class="cards">
+                <img src="../imagenes/descarga (2).jpg" alt="">
+                <p>Teclado</p>
+                <p>Precio: 20$</p>
+                <button onclick="agregarProducto('Teclado', '../imagenes/descarga (2).jpg')">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="container-cards">
+            <div class="cards">
+                <img src="../imagenes/descarga (3).jpg" alt="">
+                <p>Silla gamer</p>
+                <p>Precio: 150$</p>
+                <button onclick="agregarProducto('Silla', '../imagenes/descarga (3).jpg')">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="container-cards">
+            <div class="cards">
+                <img src="../imagenes/Tipos-de-torres-chasis-o-cajas-para-PC-4.jpg" alt="">
+                <p>Chasis</p>
+                <p>Precio: 80$</p>
+                <button onclick="agregarProducto('Chasis', '../imagenes/Tipos-de-torres-chasis-o-cajas-para-PC-4.jpg')">Agregar al carrito</button>
+            </div>
+        </div>
+    
+    
+    
+        </div>
+        <h1 class="productos">Productos</h1>
+    
+        <div class="carrito">
+
+            <h2>Carrito de compras:</h2>
+            <ul id="lista-productos">
+            </ul>
+            <p>Total: <span id="total"></span></p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+    
+</body>
+</html>
